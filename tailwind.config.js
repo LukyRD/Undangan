@@ -2,12 +2,17 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
-    container: {
-      center: true,
-    },
-    colors: {
-      primary: "#085C94",
+    extend: {
+      container: {
+        center: true,
+      },
+      colors: {
+        primary: "#085C94",
+      },
+      fontFamily: {
+        charm: ["Charm"],
+        nunitoSans: ["Nunito Sans"],
+      },
     },
   },
   plugins: [],
