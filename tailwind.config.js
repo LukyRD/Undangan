@@ -12,6 +12,10 @@ module.exports = {
       fontFamily: {
         charm: ["Charm"],
         nunitoSans: ["Nunito Sans"],
+        lusitana: ["Lusitana"],
+      },
+      fontSize: {
+        "2xs": ["0.625rem"],
       },
     },
   },
